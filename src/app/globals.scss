@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to top right, rgb(2, 1, 1), rgb(24, 6, 6), rgb(36, 10, 10));
+  background-repeat: no-repeat;
+  color: rgb(214, 214, 214);
+}
+
+html, body {
+  @apply h-full w-full;
+}

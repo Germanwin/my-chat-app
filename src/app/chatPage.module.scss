@@ -1,0 +1,9 @@
+.chatPage {
+  @apply grid h-full;
+  grid-template-columns: 1fr 3.7fr;
+
+  .chatList {
+    @apply flex flex-col border-r border-border;
+  }
+
+}

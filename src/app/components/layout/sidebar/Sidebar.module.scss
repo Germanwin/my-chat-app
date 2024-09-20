@@ -1,0 +1,23 @@
+.sidebar {
+	@apply flex flex-col items-center justify-between h-full border-r border-border
+    py-layout;
+
+	div {
+		@apply flex flex-col gap-y-3;
+	}
+
+	svg {
+		color: #555555e3;
+		@apply transition-colors ease-in-out duration-300;
+
+		&:hover {
+			@apply text-white;
+		}
+	}
+
+	a {
+		&.active >svg {
+			@apply text-white;
+		}
+	}
+}
